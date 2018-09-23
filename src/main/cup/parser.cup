@@ -1,0 +1,16 @@
+package parse;
+
+terminal String LITERAL_INT;
+terminal String ID;
+terminal        T_MAIS;
+terminal        T_IGUAL;
+terminal        T_PARENTESEL, T_PARENTESER, T_VIRGULA;
+terminal        BOOL, INT;
+terminal        IF, THEN, ELSE;
+terminal        LET, IN;
+
+non terminal program;
+
+start with program;
+
+program ::= ;
